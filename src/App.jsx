@@ -17,7 +17,15 @@ const App = () => {
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
   return (
-    <div className="app">
+    <div style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "100vh",
+      backgroundColor: "#f0f0f0"
+    
+    }}>
+      <div className="app">
       <div className="grid">
         {alphabet.map((letter) => (
           <div
@@ -32,6 +40,7 @@ const App = () => {
       <div id="outputString" className="output">
         {outputString}
       </div>
+    </div>
     </div>
   );
 };
