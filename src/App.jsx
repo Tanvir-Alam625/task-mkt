@@ -13,6 +13,7 @@ const App = () => {
       return modifiedString;
     });
   };
+  
 
   const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
@@ -23,7 +24,7 @@ const App = () => {
       alignItems: "center",
       height: "100vh",
       backgroundColor: "#f0f0f0"
-      
+
     }}>
       <div className="app">
       <div className="grid">
